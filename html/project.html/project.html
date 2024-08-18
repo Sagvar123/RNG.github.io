@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rent N Go</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="black">
+    
+    <div class="top-right">
+        <div class="desktop-header-text about-button" id="about-button">About Us</div>
+        <div class="desktop-header-text contact-button" id="contact-button">Contact Us</div>
+        <div class="desktop-header-text login-button" id="login-button">Login</div>
+    </div>
+    <div class="top-left">
+        <div class="desktop-header-text home-button" id="home-button">Home</div>
+    </div>
+    
+    <img src ="https://res.cloudinary.com/dpsjpp7l4/image/upload/v1721378807/WhatsApp_Image_2024-07-18_at_19.45.32_fda295cc_mscrqv.jpg"alt="Website Logo"class="center">
+    
+    <script>
+        document.getElementById("about-button").addEventListener("click", function() {
+            window.location.href = "aboutus.html"; // Replace with the actual path to your about page
+        });    
+        document.getElementById("contact-button").addEventListener("click", function() {
+            window.location.href = "contactus.html"; // Replace with the actual path to your contact page
+        });
+        document.getElementById("login-button").addEventListener("click", function() {
+            window.location.href = "login.html"; // Replace with the actual path to your login page
+        });
+        document.getElementById("home-button").addEventListener("click", function() {
+            window.location.href = "your-home-page.html"; // Replace with the actual path to your home page
+        });
+
+    </script>
+</body>
+</html>

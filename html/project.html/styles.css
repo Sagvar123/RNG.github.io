@@ -1,0 +1,256 @@
+body {
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    overflow: normal;
+}
+
+.desktop-header-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: white ;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 1px 10px;
+}
+
+.about-button {
+    background-color: black; /* Customize the About Us button */
+}
+
+.contact-button {
+    background-color: black; /* Customize the Contact Us button */
+}
+
+.login-button {
+    background-color: green;
+    border-radius: 10px;/* Customize the Login button */
+}
+
+.home-button {
+    background-color: black; /* Customize the Home button */
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+}
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    display: flex;
+}
+
+.body { 
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center {
+    height: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #00bfff; /* Light blue color for headings */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 1.5px solid #00bfff;
+    border-radius: 25px;
+  }
+  
+  p {
+    margin: 10px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #333;
+    margin: 7px 0;
+    padding: 7px;
+    border-radius: 10px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  .login-heading {
+    margin-top: 50px; /* Adjust this value to move the heading down */
+    color: #00bfff;
+  }
+  
+  input[type=text], input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #e9e3e3;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px, 8px;
+    border: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .container {
+    padding: 1px 15px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 30px;
+  }
+  @media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+div.gallery {
+  border: 2px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 5px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+
+}
+
+div.desc {
+  padding: 3px 0px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 1000%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 1000%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color for contrast */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #222; /* Dark gray background for the container */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+  color: #fff; /* White text color */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.contact-info {
+  margin: 20px 0;
+}
+
+.contact-info a {
+  color: #1e90ff; /* Light blue link color for better visibility */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+  
+   
+  
+  
